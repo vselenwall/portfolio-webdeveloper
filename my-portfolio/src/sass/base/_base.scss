@@ -1,0 +1,6 @@
+@use '../abstracts/colors' as *;
+
+.app {
+    background-color: $bg-color;
+    color: $font-color;
+}

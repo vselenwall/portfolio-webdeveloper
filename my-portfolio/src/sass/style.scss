@@ -1,4 +1,10 @@
 @use 'abstracts';
+@use 'vendors';
+@use 'base';
+@use 'utilities';
+@use 'components';
+@use 'pages';
+@use 'themes';
 
 * {
     box-sizing: border-box;
