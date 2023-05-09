@@ -1,0 +1,51 @@
+@use '../base/typography' as *;
+@use '../abstracts/colors' as *;
+
+.navbar {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+
+    .navbar__menu-links {
+        text-transform: uppercase;
+        margin-left: 2rem;
+
+        ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+            a {
+                text-decoration: none;
+                letter-spacing: 1.2px;
+                font-size: 20px;
+                margin: 0 2rem 0 2rem;
+                font-family: $primary-font;
+                color: $heading-color;
+            }
+
+            a:hover {
+                color: $accent-color;
+            }
+        }
+    }
+
+    .navbar__menu-links_icons {
+        margin: 2rem 4rem 2rem 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        list-style: none;
+
+        i {
+            color: $accent-color;
+            font-size: 30px;
+            padding-left: 2rem;
+        }
+
+        i:hover {
+            color: #A98B5C;
+        }
+    }
+}
