@@ -1,7 +1,21 @@
-@media screen and (max-width: 700px) {
-    // for tablets
-}
+// @use '../components/navbar' as *;
 
-@media screen and (max-width: 550px) {
-    // for mobile
-}
+// @media screen and (max-width: 700px) {
+//     // for tablets
+// }
+
+// @media screen and (max-width: 550px) {
+//     // for mobile
+// }
+
+@media screen and (max-width: 1050px) {
+    .navbar__menu-links {
+        display: none;
+    }
+    
+    .navbar__menu-mobile {
+        display: flex !important;
+    }
+}     
+
+  

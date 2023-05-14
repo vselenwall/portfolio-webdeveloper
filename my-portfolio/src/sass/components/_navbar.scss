@@ -1,5 +1,6 @@
 @use '../base/typography' as *;
 @use '../abstracts/colors' as *;
+@use '../abstracts/media-query' as *;
 
 .navbar {
     background-color: aqua;
@@ -48,4 +49,37 @@
             color: #A98B5C;
         }
     }
+
+    .navbar__menu-mobile {
+        background-color: yellow;
+        margin-left: 2rem;
+        display: none;
+        position: relative;
+
+    }
+        
+        svg {
+            cursor: pointer;
+        }
+
+        .navbar__menu-mobile_container {
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+            text-align: end;
+            background-color: deeppink;
+            padding: 1rem;
+            position: absolute;
+            top: 2rem;
+            right: 0;
+            min-width: 210px;
+
+            p {
+                margin: 2rem 0;
+            }
+
+            .navbar__menu-mobile_icons {
+                display: none;
+            }
+    }   
 }
