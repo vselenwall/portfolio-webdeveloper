@@ -10,7 +10,7 @@ const Footer = () => {
     const emailAddress = 'veronica@selenwall.se'; 
 
     return (
-        <div className="contact__container">
+        <div id="contact" className="contact__container">
             <div className="contact__info">
             <h3>Contact</h3>
             <h4>Let's have a cup of coffee and get to know each other?</h4>

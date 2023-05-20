@@ -12,8 +12,8 @@ const Header = () => {
              <Navbar />
             <div className="header__info">
             <h1>Hi, I'm Veronica Selenwall</h1>
-            <h2>I'm searching for my frist job as a junior web developer</h2>
-            <button>My projects</button>
+            <h2>I'm searching for my first job as a junior web developer</h2>
+            <button><a href="#work">My projects</a></button>
             </div>
         </div>
     )
