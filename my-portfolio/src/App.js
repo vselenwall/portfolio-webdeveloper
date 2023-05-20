@@ -10,13 +10,9 @@ import { CTA, Gallery, Links, Navbar, Projects } from './components';
 const App = () => {
   return (
     <div className="App">
-  
       <Header />
       <About />
       <Portfolio />
-      <Gallery />
-      <Projects />
-      <Contact />
       <Footer />
     </div>
   )

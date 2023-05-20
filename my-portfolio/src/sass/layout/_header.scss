@@ -3,7 +3,7 @@
 @use '../abstracts/media-query' as *;
 
 .header__container {
-    background-image: url('../../media/profile-pic.jpg');
+    background-image: url('../../../public/media/profile-pic.jpg');
     background-size: cover;
     background-position: center;
 

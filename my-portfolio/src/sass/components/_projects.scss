@@ -1,0 +1,63 @@
+@use '../base/typography' as *;
+@use '../abstracts/colors' as *;
+
+.projects__container {
+    margin-bottom: 8rem;
+
+    .projects__single-project__text .single-project_left {
+        text-align: right;
+    }
+
+    .projects__single-project {
+        margin: 1rem;
+        display: flex;
+
+        .projects__single-project_img {
+
+            img {
+                width: 550px;
+                height: 290px;
+                object-fit: cover;
+            }
+        }
+
+       .projects__single-project__text {
+        text-align: left;
+        padding: 2rem 0rem 2rem 2rem;
+        width: 27rem;
+        font-family: $primary-font;
+        color: $font-color;
+
+        h4 {
+            font-size: 20px;
+            margin-bottom: 0.4rem;
+            color: white;
+            font-weight: 400;
+        }
+
+        h5 {
+            font-size: 15px;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            color: $accent-color;
+            font-weight: 400;
+            
+        }
+        
+        p {
+            font-size: 15px;
+            margin-bottom: 1rem;
+            font-weight: 200;
+        }
+
+        a {
+            font-family: 15px;
+            color: $accent-color;
+            font-weight: 400;
+        }
+       }
+
+    }
+
+
+}

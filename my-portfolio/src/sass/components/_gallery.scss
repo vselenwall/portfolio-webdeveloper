@@ -1,0 +1,57 @@
+@use '../base/typography' as *;
+@use '../abstracts/colors' as *;
+
+
+.gallery__container {
+    margin-bottom: 8rem;
+
+    .gallery__customers {
+
+        h4 {
+            padding: 0.5rem 0.5rem 0.5rem 0;
+            font-size: 15px;
+            font-weight: 500;
+            color: $accent-color;
+        }
+
+        & > div {
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+
+            p {
+                padding: 0.7rem;
+                font-size: 12px;
+                color: $font-color;
+
+                &:hover {
+                    transform: scale(1.1);
+                    cursor: pointer;
+
+                }
+            }
+        }
+
+    }
+
+    .gallery__img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        .gallery__item {
+            width: 270px;
+            height: 320px;
+            object-fit: cover;
+            padding: 0.5rem;
+            opacity: 0.9;
+      
+        //     &:hover {
+        //       background-color: rgba(0, 0, 0, 0.8);
+        //       opacity: 0.5;
+        //   }
+      
+          }
+    }
+  
+
+  }

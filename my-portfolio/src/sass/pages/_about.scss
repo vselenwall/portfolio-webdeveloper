@@ -3,15 +3,15 @@
 
 .about__container {
     background-color: $bg-color;
-    padding: 8rem 8rem 8rem 15rem;
+    padding: 8rem 16rem 4rem 16rem;
     display: flex;
     align-items: center;
     // display: grid;
     // grid-template-columns: 1fr 2fr;
 
     .about__img {
-        background-image: url('../../media/about-pic.jpg');
-        width: 620px;
+        background-image: url('../../../public/media/about-pic.jpg');
+        width: 720px;
         height: 580px;
 
         // background-size: cover;
@@ -69,6 +69,7 @@
 
         .about__text-cv {
             text-decoration: underline;
+            cursor: pointer;
 
         }
 
