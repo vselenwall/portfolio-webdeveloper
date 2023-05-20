@@ -23,8 +23,27 @@ const Menu = () => (
 const Navbar = () => {
     const [mobileMenu, setMobileMenu] = useState('false');
 
+    document.addEventListener('DOMContentLoaded', function() {
+        const navbar = document.querySelector('.navbar');
+        const scrollPosition = window.scrollY;
+    
+        if (scrollPosition > 0 && !navbar.classList.contains('navbar--scrolled')) {
+            navbar.classList.add('navbar--scrolled');
+        }
+    
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.scrollY;
+    
+            if (scrollPosition > 0 && !navbar.classList.contains('navbar--scrolled')) {
+                navbar.classList.add('navbar--scrolled');
+            } else if (scrollPosition === 0 && navbar.classList.contains('navbar--scrolled')) {
+                navbar.classList.remove('navbar--scrolled');
+            }
+        });
+    });
+    
     return (
-        <div className="navbar">
+        <div className="navbar navbar--scrolled">
 
             <Menu />
 

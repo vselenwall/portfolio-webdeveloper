@@ -1,3 +1,67 @@
-.test {
-    background-color: deeppink;
+@use '../base/typography' as *;
+@use '../abstracts/colors' as *;
+
+.about__container {
+    background-color: $bg-color;
+    padding: 8rem 8rem 8rem 12rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    .about__img {
+        background-image: url('../../media/about-pic.jpg');
+        width: 350px;
+        height: 580px;
+    }
+
+    .about__text {
+        padding: 1rem;
+        font-family: $primary-font;
+        letter-spacing: 0.5px;
+
+        h3 {
+            padding: 1rem 1rem 1 rem 0;
+            font-size: 30px;
+            font-weight: 400;
+            color: $heading-color;
+
+        }
+
+        h4 {
+            padding: 1rem 1rem 1rem 0;
+            font-size: 15px;
+            font-weight: 500;
+            color: $accent-color;
+        }
+
+        p {
+            padding: 0rem 1rem 1rem 0;
+            font-size: 15px;
+            font-weight: 300;
+            color: $font-color;
+        }
+
+        .about__text-lang {
+            text-transform: uppercase;
+        }
+
+        .about__text-studies {
+            margin-bottom: 1rem;
+
+            ul {
+                list-style: none;
+
+                li {
+                    font-weight: 300;
+                    font-size: 15px;
+                    color: $font-color;
+                }
+
+            }
+        }
+
+        .about__text-cv {
+            text-decoration: underline;
+        }
+
+    }
 }

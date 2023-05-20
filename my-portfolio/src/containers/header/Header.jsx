@@ -1,14 +1,20 @@
 import React from 'react';
 
+// components
+import Navbar from '../../components/navbar/Navbar'
+
 // styles
 import '../../sass/style.scss'
 
 const Header = () => {
     return (
-        <div className="header">
-            <nav className="header__navbar">Navbar</nav>
-            <div className="header__picture">Picture</div>
-            <h1 className="header__hero-text">Herotext</h1>
+        <div className="header__container">
+             <Navbar />
+            <div className="header__info">
+            <h1>Hi, I'm Veronica Selenwall</h1>
+            <h2>I'm searching for my frist job as a junior web developer</h2>
+            <button>My projects</button>
+            </div>
         </div>
     )
 }

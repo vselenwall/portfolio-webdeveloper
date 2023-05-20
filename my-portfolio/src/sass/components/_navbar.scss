@@ -2,12 +2,17 @@
 @use '../abstracts/colors' as *;
 @use '../abstracts/media-query' as *;
 
+
 .navbar {
-    background-color: aqua;
+    // background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
+    z-index: 100;
+    // position: relative;
+    position: sticky;
+    top: 0;
 
     .navbar__menu-links {
         text-transform: uppercase;
@@ -46,7 +51,7 @@
         }
 
         i:hover {
-            color: #A98B5C;
+            transform: scale(1.07); 
         }
     }
 
@@ -83,3 +88,7 @@
             }
     }   
 }
+
+// .navbar--scrolled {
+//     background-color: yellow;
+// }
