@@ -19,7 +19,7 @@ const About = () => {
                     I work as a commercial photographer in my own company
                     but have now also trained in web development.</p>
 
-                    <p>It's almost time for me to get my first job as a junior web developer
+                    <p>It's time for me to have my first job as a junior web developer
                         and it feels exciting! I have studied a 2-year vocational education
                         with a focus on the practical aspects.</p>
 
