@@ -46,7 +46,7 @@ const Projects = () => {
                 </div>
                 <div className="projects__single-project__text">
                     <h4>Hawaii Foodtruck Restaurant</h4>
-                    <h5>API | JS | CSS</h5>
+                    <h5>API / JS / CSS</h5>
                     <p>Det här var det fjärde caset som vi fick göra under min utbildning, dvs. att det 
                         gjordes för ca 2 år sedan. Vi fick i uppgift att utforma en restaurangapp som hämtade
                         olika matställen från ett API. Därefter skulle vi sortera informationen på olika sätt.
@@ -61,7 +61,7 @@ const Projects = () => {
                 </div>
                 <div className="projects__single-project__text">
                     <h4>Todo App</h4>
-                    <h5>JavaScript | CSS</h5>
+                    <h5>JavaScript / CSS</h5>
                     <p>Några veckor in på vår utbildning lärde vi oss JavaScript och då
                         gjorde jag mitt allra första case i ren JavaScript. Kraven var att
                         skapa en todo-app där man kunde lägga till nya saker att göra, redigera befintliga,
@@ -77,7 +77,7 @@ const Projects = () => {
                 </div>
                 <div className="projects__single-project__text">
                     <h4>Explore App</h4>
-                    <h5>Node.js | EJS | CSS | MVC-model</h5>
+                    <h5>Node.js / EJS / CSS / MVC-model</h5>
                     <p>Under det här caset jobbade vi med att skapa authentifications med hjälp av Node.js.
                         Kraven var att vi skulle kunna skapa en användare, logga in med en användare och sedan skulle denna användare
                         kunna lägga upp en post, redigera samt ta bort. Jag valde att göra en sida där användare
@@ -94,7 +94,7 @@ const Projects = () => {
                 </div>
                 <div className="projects__single-project__text">
                     <h4>My Portfolio</h4>
-                    <h5>React | SASS</h5>
+                    <h5>React / SASS</h5>
                     <p>När jag skapade den här sidan använde jag mig av React och stylade med hjälp av SASS.
                         Jag tycker om att jobba med React och SASS, därför kändes det viktigt för mig att visa upp
                         mina senaste kunskaper inom detta. Genom alla projekt har vi även arbetat med Figma och skapat
