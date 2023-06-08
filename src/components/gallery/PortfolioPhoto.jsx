@@ -6,18 +6,19 @@ import '../../sass/style.scss'
 const Gallery = () => {
 
     const galleryData = [
-        '/../../media/gallery/interior-1.jpg',
-        '/../../media/gallery/interior-2.jpg',
-        '/../../media/gallery/interior-3.jpg',
-
-        '/../../media/gallery/furniture-4.jpeg',
-        '/../../media/gallery/furniture-5.jpeg',
-        '/../../media/gallery/furniture-2.jpeg',
-
-        '/../../media/gallery/other-1jpg.jpg',
-        '/../../media/gallery/other-5.jpeg',
-        '/../../media/gallery/other-4.jpeg'
-    ];
+        '/media/gallery/interior-1.jpg',
+        '/media/gallery/interior-2.jpg',
+        '/media/gallery/interior-3.jpg',
+      
+        '/media/gallery/furniture-4.jpeg',
+        '/media/gallery/furniture-5.jpeg',
+        '/media/gallery/furniture-2.jpeg',
+      
+        '/media/gallery/other-1jpg.jpg',
+        '/media/gallery/other-5.jpeg',
+        '/media/gallery/other-4.jpeg'
+      ];
+      
 
     return (
         <div className="gallery__container">
@@ -33,7 +34,7 @@ const Gallery = () => {
             </div>
             <div className="gallery__img">
             {galleryData.map((image, index) => (
-                <img className="gallery__item" key={index} src={image} alt={`Image ${index}`} />
+                <img className="gallery__item" key={index} src={process.env.PUBLIC_URL + image} alt={`Image ${index}`} />
             ))}
             </div>
         </div>

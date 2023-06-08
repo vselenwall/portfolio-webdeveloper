@@ -11,7 +11,7 @@
     }
 
     .projects__single-project {
-        margin: 1rem;
+        margin: 2.5rem;
         display: flex;
 
         .projects__single-project_img {
@@ -20,12 +20,17 @@
                 width: 550px;
                 height: 290px;
                 object-fit: cover;
+                opacity: 0.9;
             }
         }
 
        .projects__single-project__text {
         text-align: left;
-        padding: 2rem 0rem 2rem 2rem;
+        padding: 0rem 0rem 2rem 2rem;
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        flex-direction: column;
         width: 27rem;
         font-family: $primary-font;
         color: $font-color;
