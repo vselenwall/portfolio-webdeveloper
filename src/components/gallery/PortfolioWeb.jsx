@@ -46,7 +46,7 @@ const Projects = () => {
                 </div>
                 <div className="projects__single-project__text">
                     <h4>Hawaii Foodtruck Restaurant</h4>
-                    <h5>API / JS / CSS</h5>
+                    <h5>API / JS  CSS</h5>
                     <p>Det här var det fjärde caset som vi fick göra under min utbildning, dvs. att det 
                         gjordes för ca 2 år sedan. Vi fick i uppgift att utforma en restaurangapp som hämtade
                         olika matställen från ett API. Därefter skulle vi sortera informationen på olika sätt.
