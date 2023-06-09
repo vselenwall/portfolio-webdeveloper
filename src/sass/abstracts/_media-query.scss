@@ -1,21 +1,4 @@
-// @use '../components/navbar' as *;
-
-// @media screen and (max-width: 700px) {
-//     // for tablets
-// }
-
-// @media screen and (max-width: 550px) {
-//     // for mobile
-// }
-
 @media screen and (max-width: 1050px) {
-    .navbar__menu-links {
-        display: none;
-    }
-    
-    .navbar__menu-mobile {
-        display: flex !important;
-    }
 
     .about__container {
         padding: 5rem !important;
@@ -25,14 +8,19 @@
         }
     }
 
-}     
+    body {
+        margin-right: -5.5rem;
+        padding: 0;
+    }
+}
 
 @media screen and (max-width: 700px) {
+
     .navbar__menu {
         padding: 2rem;
     }
 
-    .about__container{
+    .about__container {
         padding: 0rem;
 
         .about__img {
@@ -40,20 +28,22 @@
         }
     }
 
-}    
+    .navbar__menu-links {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 550px) {
+
     .navbar__menu {
         padding: 1rem;
     }
 
-    .about__container{
-        padding: 0rem !important;
+    .about__container {
+        padding: 0rem;
 
         .about__img {
-            display: none !important;
+            display: none;
         }
     }
-
-}  
-  
+}

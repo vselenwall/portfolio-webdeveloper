@@ -14,10 +14,10 @@ const Projects = () => {
                 <div className="projects__single-project__text">
                     <h4>Ånimmens Fiskevårdsförening</h4>
                     <h5>Wordpress</h5>
-                    <p>Jag fick i uppdrag att göra en hemsida till Ånimmens Fiskevårdsförening.
-                        De hade redan ett domännamn, men ingen befintlig sida.
-                        Sidan skulle vara enkel att navigera och innehålla deras viktigaste information.
-                        Det här uppdrag genomfördes genom mitt eget företag.
+                    <p>I was tasked with creating a website for Ånimmens Fiskevårdsförening.
+                        They already had a domain name but no existing webpage.
+                        The website was supposed to be easy to navigate and include their most important information.
+                        This assignment was carried out through my own company.
                     </p>
                     <a href="http://animmen.net/">www.animmen.net</a>
                 </div>
@@ -30,13 +30,15 @@ const Projects = () => {
                 <div className="projects__single-project__text">
                     <h4>GlimGrub</h4>
                     <h5>MERN-stack</h5>
-                    <p>Glimåkra Folkhögskola var trötta på att använda sig av fysiska matkuponger för att ta betalt i skolans matsal. Tillsammans med min
-                        klasskompis Simon valde vi att jobba med detta i vårt examensarbete. Vi skapade ett system som hanterar betalningar samt saldo för deltagare/personal. 
-                        Kökspersonal ska även kunna se vilka som handlar och kunna administrera olika alternativ av fika. Jag jobbade mest med React och Frontend, dvs. allt som ligger i mappen "client". 
-                        Jag gjorde även designen med hjälpt av Figma och SASS.
-                        
+                    <p>Glimåkra Folk High School was tired of using physical meal vouchers to receive payments
+                        in the school cafeteria. Together with my classmate Simon, we chose to work on this for our final project.
+                        We created a system that manages payments and balances for participants and staff.
+                        The kitchen staff should also be able to see who is making purchases and administer various options for snacks.
+                        I primarily worked with React and Frontend, which includes everything in the "client" folder.
+                        I also designed the interface using Figma and SASS.
+
                     </p>
-                    <a href="https://github.com/SeaManMoonSon/Examensprojekt.git">www.github.com/examensarbete</a>
+                    <a href="https://github.com/SeaManMoonSon/Examensprojekt.git">www.github.com/finalproject</a>
                 </div>
             </div>
 
@@ -47,11 +49,12 @@ const Projects = () => {
                 <div className="projects__single-project__text">
                     <h4>Hawaii Foodtruck Restaurant</h4>
                     <h5>API / JS  CSS</h5>
-                    <p>Det här var det fjärde caset som vi fick göra under min utbildning, dvs. att det 
-                        gjordes för ca 2 år sedan. Vi fick i uppgift att utforma en restaurangapp som hämtade
-                        olika matställen från ett API. Därefter skulle vi sortera informationen på olika sätt.
+                    <p>This was the fourth case that we had to work on during my education,
+                        which means it was done about 2 years ago.
+                        We were tasked with designing a restaurant app that fetched various food establishments
+                        from an API. Then, we had to sort the information in different ways.
                     </p>
-                    <a href="https://github.com/vselenwall/case4.git">www.github.com</a>
+                    <a href="https://github.com/vselenwall/case4.git">www.github.com/hawaiifood</a>
                 </div>
             </div>
 
@@ -62,12 +65,12 @@ const Projects = () => {
                 <div className="projects__single-project__text">
                     <h4>Todo App</h4>
                     <h5>JavaScript / CSS</h5>
-                    <p>Några veckor in på vår utbildning lärde vi oss JavaScript och då
-                        gjorde jag mitt allra första case i ren JavaScript. Kraven var att
-                        skapa en todo-app där man kunde lägga till nya saker att göra, redigera befintliga,
-                        ta bort samt markera tasks som klara.
+                    <p>A few weeks into our education, we learned JavaScript,
+                        and that's when I did my very first case using pure JavaScript.
+                        The requirements were to create a todo app where users could add new tasks,
+                        edit existing ones, delete tasks, and mark tasks as completed.
                     </p>
-                    <a href="https://vselenwall.github.io/case3-javascript/">www.github/vselenwall.com</a>
+                    <a href="https://vselenwall.github.io/case3-javascript/">www.github.com/todo</a>
                 </div>
             </div>
 
@@ -78,12 +81,12 @@ const Projects = () => {
                 <div className="projects__single-project__text">
                     <h4>Explore App</h4>
                     <h5>Node.js / EJS / CSS / MVC-model</h5>
-                    <p>Under det här caset jobbade vi med att skapa authentifications med hjälp av Node.js.
-                        Kraven var att vi skulle kunna skapa en användare, logga in med en användare och sedan skulle denna användare
-                        kunna lägga upp en post, redigera samt ta bort. Jag valde att göra en sida där användare
-                        skulle kunna dela sina bästa vandringsleder med varandra. Vi lärde oss även MVC-modellen i detta case.
+                    <p>During this case, we worked on creating authentications using Node.js.
+                        The requirements were to be able to create a user, log in with a user, and then allow the user to create,
+                        edit, and delete posts. I choosed to create a website where users could share their best hiking trails
+                        with each other. Additionally, we learned about the MVC model in this case.
                     </p>
-                    <a href="https://github.com/vselenwall/case9.git">www.github.com</a>
+                    <a href="https://github.com/vselenwall/case9.git">www.github.com/exploredalsland</a>
                 </div>
             </div>
 
@@ -95,16 +98,17 @@ const Projects = () => {
                 <div className="projects__single-project__text">
                     <h4>My Portfolio</h4>
                     <h5>React / SASS</h5>
-                    <p>När jag skapade den här sidan använde jag mig av React och stylade med hjälp av SASS.
-                        Jag tycker om att jobba med React och SASS, därför kändes det viktigt för mig att visa upp
-                        mina senaste kunskaper inom detta. Genom alla projekt har vi även arbetat med Figma och skapat
-                        såväl LoFi som HiFi för alla våra projekt. Därför har jag valt att lägga in en bild från min HiFi i Figma
-                        som mockup till det här projektet, som du nu tittar på. 
+                    <p>
+                        When I created this website, I used React and styled it using SASS.
+                        I enjoy working with React and SASS, so it was important for me to showcase my latest skills in this area.
+                        Throughout all the projects at the education, we have also worked with Figma and created both LoFi and HiFi
+                        designs for all our projects. That's why I have chosen to include an image from my HiFi design in Figma as a
+                        mockup for this project that you are currently viewing.
                     </p>
-                    <a href="https://github.com/vselenwall/portfolio-webdeveloper.git">www.github.com</a>
+                    <a href="https://github.com/vselenwall/portfolio-webdeveloper.git">www.github.com/portfolio</a>
                 </div>
             </div>
-            
+
 
         </div>
     )

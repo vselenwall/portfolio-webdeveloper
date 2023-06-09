@@ -4,19 +4,18 @@ import React from 'react';
 import './sass/style.scss';
 
 // components
-import { About, Contact, Footer, Header, Portfolio } from './containers';
+import { About, Contact, Footer, Portfolio } from './containers';
 import { CTA, Gallery, Links, Navbar, Projects } from './components';
 
 const App = () => {
   return (
-    <div className="App">
-      {/* <Navbar/> */}
-      <Header />
+    <div>
+      <Navbar />
       <About />
       <Portfolio />
       <Footer />
-
     </div>
+
 
   )
 }
