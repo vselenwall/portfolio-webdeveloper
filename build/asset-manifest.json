@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-webdeveloper/static/css/main.c6fd85a4.css",
-    "main.js": "/portfolio-webdeveloper/static/js/main.e14eb243.js",
+    "main.css": "/portfolio-webdeveloper/static/css/main.413c58ee.css",
+    "main.js": "/portfolio-webdeveloper/static/js/main.68a1d652.js",
     "static/media/contact.jpg": "/portfolio-webdeveloper/static/media/contact.964ce887ed4134f981eb.jpg",
-    "static/media/profile-pic.jpg": "/portfolio-webdeveloper/static/media/profile-pic.86efd0692f7705ba14b9.jpg",
-    "static/media/about-pic.jpg": "/portfolio-webdeveloper/static/media/about-pic.e04024fbdfa743ae0885.jpg",
+    "static/media/veronica-hike.jpg": "/portfolio-webdeveloper/static/media/veronica-hike.9f9e0fc547d63b88b305.jpg",
+    "static/media/porträtt-4.jpg": "/portfolio-webdeveloper/static/media/porträtt-4.188df16e30b6d0fea70f.jpg",
     "index.html": "/portfolio-webdeveloper/index.html",
-    "main.c6fd85a4.css.map": "/portfolio-webdeveloper/static/css/main.c6fd85a4.css.map",
-    "main.e14eb243.js.map": "/portfolio-webdeveloper/static/js/main.e14eb243.js.map"
+    "main.413c58ee.css.map": "/portfolio-webdeveloper/static/css/main.413c58ee.css.map",
+    "main.68a1d652.js.map": "/portfolio-webdeveloper/static/js/main.68a1d652.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6fd85a4.css",
-    "static/js/main.e14eb243.js"
+    "static/css/main.413c58ee.css",
+    "static/js/main.68a1d652.js"
   ]
 }
