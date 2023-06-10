@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-webdeveloper/static/css/main.413c58ee.css",
+    "main.css": "/portfolio-webdeveloper/static/css/main.efb7cb7f.css",
     "main.js": "/portfolio-webdeveloper/static/js/main.68a1d652.js",
     "static/media/contact.jpg": "/portfolio-webdeveloper/static/media/contact.964ce887ed4134f981eb.jpg",
     "static/media/veronica-hike.jpg": "/portfolio-webdeveloper/static/media/veronica-hike.9f9e0fc547d63b88b305.jpg",
-    "static/media/porträtt-4.jpg": "/portfolio-webdeveloper/static/media/porträtt-4.188df16e30b6d0fea70f.jpg",
+    "static/media/porträtt-5.jpg": "/portfolio-webdeveloper/static/media/porträtt-5.2ff64de97f1ff4b5104b.jpg",
     "index.html": "/portfolio-webdeveloper/index.html",
-    "main.413c58ee.css.map": "/portfolio-webdeveloper/static/css/main.413c58ee.css.map",
+    "main.efb7cb7f.css.map": "/portfolio-webdeveloper/static/css/main.efb7cb7f.css.map",
     "main.68a1d652.js.map": "/portfolio-webdeveloper/static/js/main.68a1d652.js.map"
   },
   "entrypoints": [
-    "static/css/main.413c58ee.css",
+    "static/css/main.efb7cb7f.css",
     "static/js/main.68a1d652.js"
   ]
 }
