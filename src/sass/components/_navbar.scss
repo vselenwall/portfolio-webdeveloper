@@ -3,7 +3,7 @@
 @use '../abstracts/media-query' as *;
 
 .header__container {
-    background-image: url('../../../public/media/profile-pic.jpg');
+    background-image: url('../../../public/media/porträtt-4.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -24,15 +24,9 @@
     }
 
     .header__info {
-        // padding: 10rem 0rem 0rem 5rem;
         position: absolute;
         font-family: $primary-font;
-        // display: flex;
-        // flex-direction: column;
-        // // justify-content: center;
-        // top: 0;
-        // bottom: 0;
-        top: 50%;
+        top: 70%;
         left: 22%;
         transform: translate(-50%, -50%);
 

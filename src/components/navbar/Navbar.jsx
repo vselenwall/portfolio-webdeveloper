@@ -38,8 +38,6 @@ const Navbar = () => {
         <div className="header__container">
             <div className={`navbar ${isScrolled ? 'navbar--scrolled' : ''}`}>
 
-                <Menu/>
-
                 <div className="navbar__menu-links_icons">
                     <li>
                         <a href={urlGitHub} target="_blank" rel="noopener noreferrer">
@@ -57,6 +55,8 @@ const Navbar = () => {
                         </a>
                     </li>
                 </div>
+
+                <Menu/>
 
                 <div className="navbar__menu-mobile">
                     {mobileMenu ? (

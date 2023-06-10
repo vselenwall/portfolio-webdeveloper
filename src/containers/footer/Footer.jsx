@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="contact__info">
             <h3>Contact</h3>
             <h4>Let's have a cup of coffee and get to know each other?</h4>
-            <p>I'm open for both remot jobs and working at your office.</p>
+            <p>I'm open for both remote jobs and working at your office.</p>
             </div>
             <div className="contact__alt">
                 <p><FaPhone/><a href={`tel:${phoneNumber}`}>{phoneNumber}</a></p>
